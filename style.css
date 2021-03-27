@@ -1,0 +1,60 @@
+
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        background: #ECE9E6;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        font-family: 'Quicksand', sans-serif;
+    }
+    .title {
+        font-size: 2.5em;
+        text-align: center;
+        text-underline-offset: 20%;
+        text-decoration-line: underline;
+        text-decoration-style: wavy;
+    }
+    .contentarea{
+        padding-top: 1%;
+        padding-left: 39%;
+        display: relative;
+    }
+    .button {
+        padding-left: 47%;
+        padding-top: 90px;
+        display: flex;
+    }
+    .resultArea{
+        padding-left: 36%;
+        display: flex;
+        font-size: 4em;
+    }
+    #video {
+        position: relative;
+        width: 320px;
+        height: 240px;
+        border-radius: 25px;
+        background: #e0e0e0;
+        box-shadow:  5px 5px 10px #afafaf,
+                     -5px -5px 10px #ffffff;
+    }
+    
+    #canvas {
+        position: absolute;
+        border-radius: 25px;
+        background: #e0e0e0;
+        box-shadow:  5px 5px 10px #afafaf,
+                     -5px -5px 10px #ffffff;
+    }
+
+    #startbutton {
+        width: 6em;
+        height: 6em;
+        border-radius: 50%;
+        cursor: pointer;
+        outline: none;
+    }
+
+    

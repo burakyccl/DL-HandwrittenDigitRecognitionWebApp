@@ -1,0 +1,38 @@
+<!doctype html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Train+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Burakyccl</title>
+</head>
+
+<body>
+    <h1 class="title">
+        Handwritten Digit Recognition
+    </h1>
+    <div class="contentarea">
+        <canvas id="canvas"></canvas>
+
+        <div class="camera">
+            <video id="video">Video stream not available.</video>
+        </div>
+    </div>
+
+    <div class="button">
+        <button id="startbutton">
+            <span style="font-size: 48px; color: Dodgerblue;">
+                <i class="fas fa-camera" id="sendIcon"></i>
+            </span>
+         </button>
+    </div>
+    <div class="resultArea">
+        <p id="result">Prediction = </p>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
